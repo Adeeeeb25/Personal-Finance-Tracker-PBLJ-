@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<finance>
+  <users>
+    <user username="admin" password="admin"/>
+  </users>
+  <budgets>
+    <budget>
+      <month>2025-11</month>
+      <limit>3000</limit>
+    </budget>
+  </budgets>
+  <transactions>
+    <transaction id="demo-1">
+      <type>Income</type>
+      <category>Salary</category>
+      <amount encrypted="true">K0vWvE3E6b6W0S8s3gD2eE0yF6Gk2JX3z1q8mWQ2bPzM</amount>
+      <date>2025-11-01</date>
+      <note>November salary</note>
+    </transaction>
+    <transaction id="demo-2">
+      <type>Expense</type>
+      <category>Food</category>
+      <amount>45.50</amount>
+      <date>2025-11-02</date>
+      <note>Lunch</note>
+    </transaction>
+  </transactions>
+</finance>

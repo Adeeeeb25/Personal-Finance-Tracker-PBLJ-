@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<finance>
+          
+    
+    <users>
+                    
+        
+        <user password="admin" username="admin"/>
+                  
+    
+    </users>
+          
+    
+    <budgets>
+                    
+        
+        <budget>
+                              
+            
+            <month>2025-11</month>
+                              
+            
+            <limit>3000</limit>
+                            
+        
+        </budget>
+                  
+    
+    </budgets>
+          
+    
+    <transactions>
+                    
+        
+        <transaction id="demo-1">
+                              
+            
+            <type>Income</type>
+                              
+            
+            <category>Salary</category>
+                              
+            
+            <amount encrypted="true">K0vWvE3E6b6W0S8s3gD2eE0yF6Gk2JX3z1q8mWQ2bPzM</amount>
+                              
+            
+            <date>2025-11-01</date>
+                              
+            
+            <note>November salary</note>
+                            
+        
+        </transaction>
+                    
+        
+        <transaction id="demo-2">
+                              
+            
+            <type>Expense</type>
+                              
+            
+            <category>Food</category>
+                              
+            
+            <amount>45.50</amount>
+                              
+            
+            <date>2025-11-02</date>
+                              
+            
+            <note>Lunch</note>
+                            
+        
+        </transaction>
+                  
+        
+        <transaction id="06dfd45d-2e47-4883-b18d-90bf4136da5f">
+                        
+            <type>Expense</type>
+                        
+            <category>Food</category>
+                        
+            <amount>300</amount>
+                        
+            <date>2025-11-11</date>
+                        
+            <note>pizza</note>
+                    
+        </transaction>
+            
+        <transaction id="da5cebca-548a-422a-aeb7-e25da87a4844">
+            <type>Expense</type>
+            <category>Rent</category>
+            <amount>600</amount>
+            <date>2025-11-11</date>
+            <note>flat</note>
+        </transaction>
+    </transactions>
+        
+
+</finance>
